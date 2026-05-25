@@ -845,7 +845,7 @@
     </div>
     <div class="free-badge">Admission is Free &nbsp;·&nbsp; Limited Seating Available</div>
     <div class="hero-btns">
-      <a href="#" class="btn-primary">Reserve Your Seat</a>
+      <a href="https://www.eventbrite.com/e/james-olevia-album-release-experience-tickets-1988765911377?aff=oddtdtcreator" target="_blank" class="btn-primary">Reserve Your Seat</a>
       <a href="#tiers" class="btn-outline">Become A Legacy Partner</a>
     </div>
   </div>
@@ -914,7 +914,7 @@
           <li><span class="perk-check">✓</span> Special Website Recognition</li>
           <li><span class="perk-check">✓</span> Legacy Circle Supporter Access</li>
         </ul>
-        <a href="#" class="btn-outline" style="width:100%;text-align:center;display:block;">Join Legacy Circle</a>
+        <a href="https://www.paypal.com/ncp/payment/MCKZT2XYQRCK6" target="_blank" class="btn-outline" style="width:100%;text-align:center;display:block;">Join Legacy Circle</a>
       </div>
 
       <!-- CARD 2 -->
@@ -931,7 +931,7 @@
           <li><span class="perk-check">✓</span> VIP Parking</li>
           <li><span class="perk-check">✓</span> VIP Reserved Seating</li>
         </ul>
-        <a href="#" class="btn-primary" style="width:100%;text-align:center;display:block;">Become A Visionary Partner</a>
+        <a href="https://www.paypal.com/ncp/payment/2GYGMSC84FZG4" target="_blank" class="btn-primary" style="width:100%;text-align:center;display:block;">Become A Visionary Partner</a>
       </div>
 
     </div>
@@ -1033,9 +1033,7 @@
     <div class="reveal">
       <div class="section-label" style="text-align:center;">Stay In The Loop</div>
       <h2 class="section-title" style="text-align:center;">Stay <em>Connected</em></h2>
-      <p class="body-text" style="text-align:center;margin-bottom:48px;">
-        Be the first to know about updates, announcements, and exclusive moments from the Ready For You journey.
-      </p>
+      <p class="body-text" style="text-align:center;margin-bottom:48px;">Be the first to know about updates, announcements, and exclusive moments from the Ready For You journey.</p>
     </div>
 
     <div class="reveal">
@@ -1046,10 +1044,6 @@
       <div class="form-group">
         <label for="femail">Email</label>
         <input type="email" id="femail" name="email" placeholder="Your email address">
-      </div>
-      <div class="form-group">
-        <label for="fphone">Phone</label>
-        <input type="tel" id="fphone" name="phone" placeholder="Your phone number">
       </div>
       <div style="text-align:center;margin-top:32px;">
         <button class="btn-primary" onclick="handleFormSubmit()" style="min-width:220px;">Keep Me Updated</button>
@@ -1069,7 +1063,148 @@
     <a href="https://instagram.com/jamesandolevia" target="_blank">Instagram @jamesandolevia</a>
     <a href="#" target="_blank">Facebook · James &amp; Olevia</a>
   </div>
-  <div class="footer-tagline">"Breaking cycles. Building legacy."</div>
+</footer>
+
+
+<script>
+  // ─── Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry, i) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => entry.target.classList.add('visible'), i * 80);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+
+  // ─── Progress bar animate
+  const progressFill = document.getElementById('progress-fill');
+  const progressObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        setTimeout(() => { progressFill.style.width = '34.2%'; }, 200);
+        progressObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  progressObserver.observe(progressFill);
+
+  // ─── Form handler (replace with Weebly form or Mailchimp embed)
+  function handleFormSubmit() {
+    const name  = document.getElementById('fname').value.trim();
+    const email = document.getElementById('femail').value.trim();
+    if (!name || !email) {
+      alert('Please enter your name and email to stay connected.');
+      return;
+    }
+    // Replace this with your actual form submission logic
+    alert('Thank you, ' + name + '! We\'ll keep you in the loop.');
+  }
+</script>
+
+</body>
+</html>      <div class="reveal">
+      <style>
+        #mc_embed_signup {
+          background: transparent !important;
+          font-family: 'Jost', sans-serif !important;
+          font-size: 14px !important;
+          color: #F5F0E8 !important;
+        }
+        #mc_embed_signup h2 { display: none; }
+        #mc_embed_signup .indicates-required { display: none; }
+        #mc_embed_signup .mc-field-group { margin-bottom: 16px; }
+        #mc_embed_signup .mc-field-group label {
+          display: block;
+          font-size: 10px;
+          font-weight: 500;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: #8a6f30;
+          margin-bottom: 8px;
+          font-family: 'Jost', sans-serif;
+        }
+        #mc_embed_signup .mc-field-group input {
+          width: 100%;
+          background: #131313 !important;
+          border: 1px solid rgba(201,168,76,0.18) !important;
+          color: #F5F0E8 !important;
+          font-family: 'Jost', sans-serif !important;
+          font-size: 14px !important;
+          font-weight: 300 !important;
+          padding: 13px 16px !important;
+          outline: none !important;
+          border-radius: 0 !important;
+        }
+        #mc_embed_signup .button {
+          font-family: 'Jost', sans-serif !important;
+          font-size: 12px !important;
+          font-weight: 500 !important;
+          letter-spacing: 3px !important;
+          text-transform: uppercase !important;
+          color: #080808 !important;
+          background: linear-gradient(135deg, #E8CC80, #C9A84C) !important;
+          padding: 16px 36px !important;
+          border: none !important;
+          border-radius: 0 !important;
+          cursor: pointer !important;
+          width: auto !important;
+          min-width: 220px !important;
+          height: auto !important;
+          display: block !important;
+          margin: 28px auto 0 !important;
+        }
+        #mc_embed_signup .foot { justify-content: center !important; display: flex !important; flex-direction: column !important; align-items: center !important; }
+        #mc_embed_signup p { display: none !important; }
+        #mce-error-response { color: #ff6b6b !important; font-size: 13px; }
+        #mce-success-response { color: #C9A84C !important; font-size: 13px; }
+      </style>
+      <div id="mc_embed_signup">
+        <form action="https://jamesandolevia.us15.list-manage.com/subscribe/post?u=5357df19b521ef318120576bb&amp;id=86853c1223&amp;f_id=00f4a3e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self" novalidate="">
+          <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address</label>
+              <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-FNAME">First Name</label>
+              <input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value="">
+            </div>
+            <div class="mc-field-group">
+              <label for="mce-LNAME">Last Name</label>
+              <input type="text" name="LNAME" class="required text" id="mce-LNAME" required="" value="">
+            </div>
+            <div id="mce-responses" class="clear foot">
+              <div class="response" id="mce-error-response" style="display:none;"></div>
+              <div class="response" id="mce-success-response" style="display:none;"></div>
+            </div>
+            <div aria-hidden="true" style="position:absolute;left:-5000px;">
+              <input type="text" name="b_5357df19b521ef318120576bb_86853c1223" tabindex="-1" value="">
+            </div>
+            <div class="optionalParent">
+              <div class="clear foot">
+                <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Keep Me Updated">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-logo">Ready For You</div>
+  <div class="footer-artist">James &amp; Olevia</div>
+  <div class="footer-social">
+    <a href="https://instagram.com/jamesandolevia" target="_blank">Instagram @jamesandolevia</a>
+    <a href="#" target="_blank">Facebook · James &amp; Olevia</a>
+  </div>
 </footer>
 
 
